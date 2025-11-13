@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PAMPANGA FAMOUS FOOD</title>
+    <link rel="stylesheet" href="ZCus.css">
+    <link rel="stylesheet" href="ZMAIN.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="cuisine_header">
+        <nav class="navbar">
+            <a href="ZMAIN.html"><div class="logocon"><img src="IMGS/logo.png" alt="logo"></div></a>
+            <ul class="nav-links">
+                <li><a href="ZMAIN.html">Home</a></li>
+                <li><a href="ZWTG.html">Where to go</a></li>
+                <li><a href="ZEVENTS.html">Festivals</a></li>
+                <li><a href="ZCUS.html">Cuisine</a></li>
+                <li><a href="ZTTIPS.html" target="_blank">Traveling Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="titleCus">PAMPANGA FAMOUS FOOD</h1>
+
+    <div class="gallery-container">
+        <div class="gallery" id="gallery">
+            <a href="#" onclick="showDescription('description1', 'https://kapampanganku.com/v3/wp-content/uploads/2019/08/buro.jpg')">
+                <div class="gallery-item">
+                    <img src="https://kapampanganku.com/v3/wp-content/uploads/2019/08/buro.jpg" alt="Balo Balo" class="gallery-img">
+                    <span class="close-button" onclick="closeDescription()">&times;</span>
+                    <div class="label">Balo Balo</div>
+                </div>
+            </a>
+            <a href="#" onclick="showDescription('description2', 'https://images.yummy.ph/yummy/uploads/2017/11/Pampanga-Duman-1.jpg')">
+                <div class="gallery-item">
+                    <img src="https://images.yummy.ph/yummy/uploads/2017/11/Pampanga-Duman-1.jpg" alt="Duman Rice" class="gallery-img">
+                    <span class="close-button" onclick="closeDescription()">&times;</span>
+                    <div class="label">Duman Rice</div>
+                </div>
+            </a>
+            <a href="#" onclick="showDescription('description3', 'https://kapampanganku.com/v3/wp-content/uploads/2019/08/Betute.jpg')">
+                <div class="gallery-item">
+                    <img src="https://kapampanganku.com/v3/wp-content/uploads/2019/08/Betute.jpg" alt="Betute Tugak" class="gallery-img">
+                    <span class="close-button" onclick="closeDescription()">&times;</span>
+                    <div class="label">Betute Tugak </div>
+                </div>
+            </a>
+            <a href="#" onclick="showDescription('description4', 'https://www.globe.com.ph/sites/globe.com.ph/files/content/dam/globe/brie/en-PH/go/travelandfood/articles/pampanga-culinary-capital-of-the-philippines/Pampanga-food-culinary-capital-2-min.jpg')">
+                <div class="gallery-item">
+                    <img src="https://www.crownasia.com.ph/wp-content/uploads/2023/08/All-Hail-the-Original-Pampanga-Sisig-scaled.jpg" alt="Sisig" class="gallery-img">
+                    <span class="close-button" onclick="closeDescription()">&times;</span>
+                    <div class="label">Sisig</div>
+                </div>
+            </a>
+            <a href="#" onclick="showDescription('description5', 'https://getaway.ph/storage/2021/05/Kamaru-Photo-by-Jhazrel-Mananghaya.jpg')">
+                <div class="gallery-item">
+                    <img src="https://getaway.ph/storage/2021/05/Kamaru-Photo-by-Jhazrel-Mananghaya.jpg" alt="Adobung Kamaru" class="gallery-img"> 
+                    <span class="close-button" onclick="closeDescription()">&times;</span>
+                    <div class="label">Adobung Kamaru</div>
+                </div>
+            </a>
+            <a href="#" onclick="showDescription('description6', 'https://www.pampangasbest.com/wp-content/uploads/2016/04/450g-2.png')">
+                <div class="gallery-item">
+                    <img src="https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/salangikopu.com/wp-content/uploads/2021/09/IMG_1515.png" alt="Tocino and Pindang" class="gallery-img">
+                    <span class="close-button" onclick="closeDescription()">&times;</span>
+                    <div class="label">Tocino and Pindang</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="description-modal" class="description-modal">
+        <div class="description-content">
+            <span class="close-button" onclick="closeDescription()">&times;</span>
+            <img id="description-image" src="" alt="Zoomed Food Image">
+            <p id="description1" class="description-text" style="display: none">
+                Balo balo, also called burung bulig, is a unique dish from Candaba, Pampanga. It’s made by fermenting mudfish with rice, creating a strong-flavored and acquired-taste food item. Due to the preparation process, it’s not commonly found and often enjoyed during festivities in the region.
+            </p>
+            <p id="description2" class="description-text" style="display: none">
+                Duman rice is a prized seasonal treat from Santa Rita, Pampanga. Made from leftover glutinous rice kernels clinging to stalks after harvest, it involves beating the husks to release the precious “lakatan malutu” grains. This laborious process results in a unique, golden-green rice enjoyed for its special flavor and cultural significance.
+            </p>
+            <p id="description3" class="description-text" style="display: none">
+                Betute tugak, or stuffed frogs, is a specialty dish in Mexico, Pampanga, and possibly Magalang as well. While the Tugak Festival (frog festival) is celebrated in San Fernando, the true origin of betute tugak might be in Mexico or Magalang. This dish highlights the unique culinary traditions of Pampanga and the resourcefulness of using local ingredients.
+            </p>
+            <p id="description4" class="description-text" style="display: none">
+                Adobong kamaru is a fascinating dish enjoyed throughout Pampanga. This “adobo” features mole crickets instead of the usual meat, stir-fried with vinegar and garlic. The result is a crunchy-on-the-outside, gooey-on-the-inside treat, considered an adventurous local delicacy.
+            </p>
+            <p id="description5" class="description-text" style="display: none">
+                While “Pampanga’s Best” is likely a brand name, Pampanga itself is renowned for its tocino
+                and carabao (water buffalo) meat products. These include tocino (sweet cured pork) and pindang (a type of cured meat). The sweet and savory flavors of Pampanga’s Best products are beloved by locals and sought after by visitors.
+            </p>
+            <p id="description6" class="description-text" style="display: none">
+                Tocino and pindang are two signature products of Pampanga’s Best, a renowned brand hailing from San Fernando, Pampanga. Tocino is a sweetened and cured pork dish often served for breakfast, while pindang refers to various types of cured meats, typically made from beef or carabao. These products reflect the culinary heritage and quality ingredients of Pampanga.
+            </p>
+        </div>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const descriptionModal = document.querySelector('.description-modal');
+    const descriptionContent = document.querySelector('.description-content');
+    const closeButton = document.querySelector('.close-button');
+
+    galleryItems.forEach(function (item) {
+        item.addEventListener('click', function () {
+            const image = item.querySelector('.gallery-img').cloneNode(true);
+            const descriptionText = item.querySelector('.description-text').textContent;
+            descriptionContent.innerHTML = '';
+            descriptionContent.appendChild(image);
+            descriptionContent.insertAdjacentHTML('beforeend', '<p>' + descriptionText + '</p>');
+            descriptionModal.classList.add('active'); // Instead of style.display = 'block';
+            closeButton.style.display = 'block';
+        });
+    });
+
+    closeButton.addEventListener('click', function () {
+        descriptionModal.classList.remove('active'); // Instead of style.display = 'none';
+        closeButton.style.display = 'none';
+    });
+});
+
+function showDescription(descriptionId, imageUrl) {
+    var descriptionText = document.getElementById(descriptionId);
+    var image = document.getElementById("description-image");
+
+    descriptionText.style.display = "block";
+    image.src = imageUrl;
+    var modal = document.getElementById("description-modal");
+    modal.classList.add("active");
+
+    // Make the image smaller
+    image.style.width = "50%"; // Adjust the size as needed
+    image.style.height = "auto"; // Maintain aspect ratio
+}
+
+function closeDescription() {
+    var modal = document.getElementById("description-modal");
+    var descriptionText = document.getElementsByClassName("description-text");
+    var image = document.getElementById("description-image");
+
+    for (var i = 0; i < descriptionText.length; i++) {
+        descriptionText[i].style.display = "none";
+    }
+
+    modal.classList.remove("active");
+    image.src = "";
+}
+</script>
+
+<!-- Footer Content -->
+<footer class="footerContainer">
+    <div class="footerContent">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/profile.php?id=61560503991501" target="_blank"><div class="iconContainer"><i class="fab fa-facebook-f"></i></div></a>
+            <a href="https://www.instagram.com/mequenipampanga/?next=%2F" target="_blank"><div class="iconContainer"><i class="fab fa-instagram"></i></div></a>
+        </div>
+
+        <div class="footerNav">
+            <ul>
+                <li><a href="ZMAIN.html">Home</a></li>
+                <li><a href="ZAbtUS.html" target="_blank">About Us</a></li>
+                <li><a href="ZContactUS.html" target="_blank">Contact Us</a></li>
+                <li><a href="ZREF.html" target="_blank">References</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footerBottom">
+        <p><a href="ZCPYRIGHT.html" style="text-decoration: none;">Copyright &copy;2024;</a> All Rights Reserved</p>
+    </div>
+
+</footer>
+
+</body>
+</html>

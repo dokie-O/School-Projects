@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; /* to yung space between the content and border ng element*/
+    box-sizing: border-box; /* PARA MAG SAME SIZE LAHAT NG DIVS*/
+}
+
+
+/*HEADERS FORMAT*/
+header {
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*HEADERS CONTENT FORMAT*/
+.header-content{
+    margin-bottom: 200px;
+    color: white;
+    text-align: center;
+   /*TO ALIGN HEADERS-CONTENT1234 TEXT*/
+
+}
+
+.header-content h1 {
+    font-size: 18vmin;
+}   /*TO ADJUST HEADERCONTENT H1 SIZE TEXT*/
+
+.header-content h2 {
+    font-size: 5vmin; 
+}   /*TO ADJUST HEADERCONTENT H2 SIZE TEXT*/
+
+/*TO CHANGE HEADERS BG USE THIS BY ADDING ID'S ON EACH MUNI*/
+#angelesheader{
+    background-image: url("IMGS/angelesbgpaper.png");
+    }
+        /* TO CHANGE PER MUNI HEADERS CONTENT OR TEXT COLOR*/
+        #angelesheader .header-content {
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        } 
+         /*NEED TALAGA HIWALAY KASI MAGKAKABAGROUND IMAGE YUNG TEXT KAPAG PINAGSAMA*/
+        
+
+#apalitheader{
+    background-image: url("IMGS/apalitbgpaper.png");
+    }
+        #apalitheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12 ;
+            text-align: center;
+        }
+    
+
+#arayatheader{
+    background-image: url("IMGS/arayatbgpaper.png");
+    }
+        #arayatheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+
+#bacolorheader{
+    background-image: url("IMGS/bacolorbgpaper.png");
+    }
+        #bacolorheader .header-content{
+            margin-bottom: 200px;
+            color: white;
+            text-align: center;
+        }
+
+
+#candabaheader{
+    background-image: url("IMGS/candababgpaper.png");
+    }
+        #candabaheader .header-content{
+            margin-bottom: 200px;
+            color:#FFAF12;
+            text-align: center;
+        }
+
+
+#floridaheader{
+    background-image: url("IMGS/floridablancabg.png");
+    }
+        #floridaheader .header-content{
+            margin-bottom: 200px;
+            color: white;
+            text-align: center;
+        }
+
+#guaguaheader{
+    background-image: url("IMGS/guaguabgpaper.png");
+    }
+        #guaguaheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+        
+#lubaoheader{
+    background-image: url("IMGS/lubaobgpaper.png");
+    }
+        #lubaoheader .header-content{
+            margin-bottom: 200px;
+            color: white;
+            text-align: center;
+        }
+
+
+#mabalacatheader{
+    background-image: url("IMGS/mabalacatbgpaper.png");
+    }
+        #mabalacatheader .header-content{
+            margin-bottom: 200px;
+            color: #F9C802;
+            text-align: center;
+        }
+
+        
+#macabebeheader{
+    background-image: url("IMGS/macabebebgpaper.png");
+    }
+        #macabebeheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#magalangheader{
+    background-image: url("IMGS/magalangbgpaper.png");
+    }
+        #magalangheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#masantolheader{
+    background-image: url("IMGS/masantolbgpaper.png");
+    }
+        #masantolheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#mexicoheader{
+    background-image: url("IMGS/mexicobgpaper.png");
+    }
+        #mexicoheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#minalinheader{
+    background-image: url("IMGS/minalinbgpaper.png");
+    }
+        #minalinheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#poracheader{
+    background-image: url("IMGS/poracbgpaper.png");
+    }
+        #poracheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#sfheader{
+    background-image: url("IMGS/sanfernandobgpaper.png");
+    }
+        #sfheader .header-content{
+            margin-bottom: 200px;
+            color: #fda900;
+            text-align: center;
+        }
+
+#sanluisheader{
+    background-image: url("IMGS/sanluisbgpaper.png");
+    }
+        #sanluisheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#sansimonheader{
+    background-image: url("IMGS/sansimonbgpaper.png");
+    }
+        #sansimonheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#sasmuanheader{
+    background-image: url("IMGS/sasmaunbgpaper.png");
+    }
+        #sasmuanheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#staanaheader{
+    background-image: url("IMGS/staanabgpaper.png");
+    }
+        #staanaheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+#staritaheader{
+    background-image: url("IMGS/staritabgpaper.png");
+    }
+        #staritaheader .header-content{
+            margin-bottom: 200px;
+            color: #ee9f00;
+            text-align: center;
+        }
+    
+#stotomasheader{
+    background-image: url("IMGS/stotomasbgpaper.png");
+    }
+        #stotomasheader .header-content{
+            margin-bottom: 200px;
+            color: #FFAF12;
+            text-align: center;
+        }
+
+
+
+/* PICTURES BELOW */
+
+
+.it1{
+    background-image: linear-gradient(to top, #ffb012bd,rgb(255, 255, 255));
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: cover;
+}
+
+img{
+    object-fit: fill;
+    width: 950px;
+    margin-right: auto;
+}
+
+.text{
+    color: #3b3b00;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-family: "Protest Revolution";
+    padding-top: 0px;
+}
+
+.ttext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.text1{
+     font-size: 20px;
+     margin-left: 50px;
+     margin-right: 100px;
+     padding: 0px;
+     float: left;
+     font-family: "Protest Revolution";
+     text-align: center;
+     color: #3b3b00;
+}
+
+.tttext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+
+    padding-top: auto;
+}
+
+.image1{
+    object-fit: fill;
+    width: 1000px;
+    float: right;
+    margin-left: auto;
+    padding-left: 0%;
+}
+
+/* FOOTER */
+.footerContainer {
+    width: 100%;
+    background-color: #111;
+    padding-top: 20px; /* Added padding to create space between map and footer */
+    color: white;
+    margin: 0%;
+   
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between; /* Align content to the sides */
+    align-items: center; /* Center content vertically */
+    padding: 0 20px; /* Add padding to the content */
+}
+
+/* Icons */
+
+
+.socialIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 45%;
+}
+
+.iconContainer {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Set default background color */
+    transition: background-color 0.5s; /* Add transition effect */
+}
+
+.socialIcons a {
+    text-decoration: none;
+    margin: 10px;
+    display: inline-flex; /* Ensure proper alignment */
+    align-items: center; /* Ensure proper alignment */
+    justify-content: center; /* Ensure proper alignment */
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black; /* Set default icon color */
+    opacity: 0.9;
+}
+
+/* Hover effect on social media icon */
+.socialIcons a:hover .iconContainer {
+    background-color: black; /* Change background color on hover */
+}
+
+.socialIcons a:hover i {
+    color: white; /* Change icon color on hover */
+    transition: 0.5s;
+}
+
+.footerNav {
+    text-align: right; /* Align the navigation to the right */
+}
+
+.footerNav ul {
+    list-style-type: none;
+}
+
+.footerNav ul li {
+    display: inline-block;
+    margin-left: 20px; /* Add spacing between navigation items */
+}
+
+.footerNav ul li:first-child {
+    margin-left: 0; /* Remove margin for the first item */
+}
+
+.footerNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.footerBottom a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
